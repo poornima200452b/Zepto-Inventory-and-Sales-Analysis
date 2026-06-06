@@ -1,9 +1,9 @@
 # Zepto-Inventory-and-Sales-Analysis
-**Project Overview**
+" Project Overview " 
 
 This project simulates how real-world data analysts work in the e-commerce and retail industry. Using a real Zepto product inventory dataset, the project covers the full analytics workflow — from raw messy data to business-driven insights — entirely using SQL.
 
-**Key objectives:**
+" Key objectives: "
 
 1. Set up a messy, real-world e-commerce inventory database
 2. Perform Exploratory Data Analysis (EDA) to explore product categories, availability, and pricing inconsistencies
@@ -11,42 +11,42 @@ This project simulates how real-world data analysts work in the e-commerce and r
 4. Write business-driven SQL queries to derive insights around pricing, inventory, stock availability, revenue, and more
 
 
-** Dataset Overview**
+" Dataset Overview " 
 
 The dataset was sourced from Kaggle and was originally scraped from Zepto's official product listings.
 Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate product names exist because the same product may appear multiple times in different package sizes, weights, discounts, or categories to improve visibility — exactly how real catalog data looks.
 
-**🧾 Columns**
+"🧾 Columns "
 
 
-sku_id: Unique identifier for each product entry (Synthetic Primary Key)
+- sku_id: Unique identifier for each product entry (Synthetic Primary Key)
 
-name: Product name as it appears on the app
+- name: Product name as it appears on the app
 
-category: Product category like Fruits, Snacks, Beverages, etc.
+- category: Product category like Fruits, Snacks, Beverages, etc.
 
-mrp: Maximum Retail Price (originally in paise, converted to ₹)
+- mrp: Maximum Retail Price (originally in paise, converted to ₹)
 
-discountPercent: Discount applied on MRP
+- discountPercent: Discount applied on MRP
 
-discountedSellingPrice: Final price after discount (also converted to ₹)
+- discountedSellingPrice: Final price after discount (also converted to ₹)
 
-availableQuantity: Units available in inventory
+- availableQuantity: Units available in inventory
 
-weightInGms: Product weight in grams
+- weightInGms: Product weight in grams
 
-outOfStock: Boolean flag indicating stock availability
+- outOfStock: Boolean flag indicating stock availability
 
-quantity: Number of units per package (mixed with grams for loose produce)
+- quantity: Number of units per package (mixed with grams for loose produce)
 
-** Tools & Technologies**
+" Tools & Technologies "
 
-Database: PostgreSQL
-IDE: pgAdmin / DBeaver
-Language: SQL (DDL, DML, Aggregations, Window Functions, CTEs)
+- Database: PostgreSQL
+- IDE: pgAdmin / DBeaver
+- Language: SQL (DDL, DML, Aggregations, Window Functions, CTEs)
 
 
-** Analysis Highlights**
+" Analysis Highlights "
 
 1. Identified and handled null values in pricing and quantity columns
 2. Converted mrp and discountedSellingPrice from paise → ₹ for accurate analysis
@@ -57,7 +57,7 @@ Language: SQL (DDL, DML, Aggregations, Window Functions, CTEs)
 7. Used window functions for ranking products within categories by price
 
 
-** Sample Business Questions Answered**
+" Sample Business Questions Answered "
 
 1. Found top 10 best-value products based on discount percentage
 
@@ -78,9 +78,9 @@ Language: SQL (DDL, DML, Aggregations, Window Functions, CTEs)
 
 🗂️ Data Source
 
-Platform: Kaggle
-Origin: Scraped from Zepto's official product listings
-Format: CSV
+- Platform: Kaggle
+- Origin: Scraped from Zepto's official product listings
+- Format: CSV
 
 
 🙋‍♀️ Author

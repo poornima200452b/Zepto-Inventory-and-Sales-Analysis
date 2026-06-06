@@ -46,23 +46,6 @@ IDE: pgAdmin / DBeaver
 Language: SQL (DDL, DML, Aggregations, Window Functions, CTEs)
 
 
-📁 Project Structure
-zepto-inventory-sql-analysis/
-│
-├── README.md
-│
-├── dataset/
-│   └── zepto_inventory.csv          # Raw dataset from Kaggle
-│
-├── queries/
-│   ├── 01_database_setup.sql        # Table creation & data import
-│   ├── 02_exploratory_analysis.sql  # EDA queries
-│   ├── 03_data_cleaning.sql         # Null handling, type conversion, deduplication
-│   └── 04_business_insights.sql     # Revenue, pricing & inventory analysis
-│
-└── screenshots/
-    └── query_outputs.png            # Sample query results
-
 ** Analysis Highlights**
 
 1. Identified and handled null values in pricing and quantity columns

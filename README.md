@@ -42,8 +42,8 @@ Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate p
 " Tools & Technologies "
 
 - Database: PostgreSQL
-- IDE: pgAdmin / DBeaver
-- Language: SQL (DDL, DML, Aggregations, Window Functions, CTEs)
+- IDE: pgAdmin 
+- Language: SQL 
 
 
 " Analysis Highlights "
